@@ -1,4 +1,35 @@
-# flutter_html
+# flutter_html_3_19_deprecations
+
+This package is a fork of [flutter_html](https://github.com/Sub6Resources/flutter_html), based on `flutter_html` @ [flutter_html-v3.0.0-alpha.6](https://github.com/Sub6Resources/flutter_html/tree/flutter_html-v3.0.0-alpha.6) by Sub6Resources. In `flutter_html_3_19_deprecations`, deprecated `TextTheme` properties, which were removed in Flutter v3.19, have been updated to ensure compatibility with the latest Flutter versions.
+
+Several `TextStyle` properties in `TextTheme` were deprecated in v3.1 to align with new stylings from the Material Design specification. The following updates were made:
+
+| Deprecated   | New API         |
+|--------------|-----------------|
+| headline1    | displayLarge    |
+| headline2    | displayMedium   |
+| headline3    | displaySmall    |
+| headline4    | headlineMedium  |
+| headline5    | headlineSmall   |
+| headline6    | titleLarge      |
+| subtitle1    | titleMedium     |
+| subtitle2    | titleSmall      |
+| bodyText1    | bodyLarge       |
+| bodyText2    | bodyMedium      |
+| caption      | bodySmall       |
+| button       | labelLarge      |
+| overline     | labelSmall      |
+
+## Features
+- Built on `flutter_html` @ flutter_html-v3.0.0-alpha.6, adapted for Flutter 3.19+ by updating only the `TextTheme` properties.
+- Retains core functionalities of `flutter_html`, including HTML rendering, styling, and custom tag support.
+
+This fork is ideal for projects already using `flutter_html` and needing compatibility with the latest Flutter versions without extensive refactoring.
+
+**License**: MIT
+
+# Original README of flutter_html
+
 [![pub package](https://img.shields.io/pub/v/flutter_html.svg)](https://pub.dev/packages/flutter_html)
 [![codecov](https://codecov.io/gh/Sub6Resources/flutter_html/branch/master/graph/badge.svg)](https://codecov.io/gh/Sub6Resources/flutter_html)
 [![CircleCI](https://circleci.com/gh/Sub6Resources/flutter_html.svg?style=svg)](https://circleci.com/gh/Sub6Resources/flutter_html)

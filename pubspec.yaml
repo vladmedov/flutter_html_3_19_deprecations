@@ -1,7 +1,9 @@
-name: flutter_html
-description: A Flutter widget rendering static HTML and CSS as Flutter widgets.
-version: 3.0.0-alpha.6
-homepage: https://github.com/Sub6Resources/flutter_html
+publish_to: none
+
+name: flutter_html_3_19_deprecations
+description: This package is a fork of flutter_html by Sub6Resources. In flutter_html_3_19_deprecations, deprecated APIs removed in Flutter v3.19 have been updated, making the package compatible with the latest Flutter versions while retaining the core functionality of the original.
+version: 3.0.0-alpha.6-fix
+homepage: https://github.com/vladmedov/flutter_html_3_19_deprecations
 
 environment:
   sdk: '>=2.17.0 <3.0.0'
