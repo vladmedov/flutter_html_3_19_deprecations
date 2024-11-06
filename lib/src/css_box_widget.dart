@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 
 class CSSBoxWidget extends StatelessWidget {
   CSSBoxWidget({

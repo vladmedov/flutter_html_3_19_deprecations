@@ -1,6 +1,6 @@
 library flutter_html_iframe;
 
-import 'package:flutter_html/custom_render.dart';
+import 'package:flutter_html_3_19_deprecations/custom_render.dart';
 
 export 'iframe_unsupported.dart'
     if (dart.library.io) 'iframe_mobile.dart'

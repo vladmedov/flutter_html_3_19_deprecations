@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_html/src/style/length.dart';
+import 'package:flutter_html_3_19_deprecations/src/style/length.dart';
 
 class Margin extends AutoOrLengthOrPercent {
   Margin(double value, [Unit? unit = Unit.px]) : super(value, unit ?? Unit.px);

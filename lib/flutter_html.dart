@@ -1,27 +1,27 @@
 library flutter_html;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_html/custom_render.dart';
-import 'package:flutter_html/html_parser.dart';
-import 'package:flutter_html/src/html_elements.dart';
-import 'package:flutter_html/style.dart';
+import 'package:flutter_html_3_19_deprecations/custom_render.dart';
+import 'package:flutter_html_3_19_deprecations/html_parser.dart';
+import 'package:flutter_html_3_19_deprecations/src/html_elements.dart';
+import 'package:flutter_html_3_19_deprecations/style.dart';
 import 'package:html/dom.dart' as dom;
 
-export 'package:flutter_html/custom_render.dart';
+export 'package:flutter_html_3_19_deprecations/custom_render.dart';
 //export render context api
-export 'package:flutter_html/html_parser.dart';
+export 'package:flutter_html_3_19_deprecations/html_parser.dart';
 //export render context api
-export 'package:flutter_html/html_parser.dart';
+export 'package:flutter_html_3_19_deprecations/html_parser.dart';
 //export src for advanced custom render uses (e.g. casting context.tree)
-export 'package:flutter_html/src/anchor.dart';
-export 'package:flutter_html/src/interactable_element.dart';
-export 'package:flutter_html/src/layout_element.dart';
-export 'package:flutter_html/src/replaced_element.dart';
-export 'package:flutter_html/src/styled_element.dart';
+export 'package:flutter_html_3_19_deprecations/src/anchor.dart';
+export 'package:flutter_html_3_19_deprecations/src/interactable_element.dart';
+export 'package:flutter_html_3_19_deprecations/src/layout_element.dart';
+export 'package:flutter_html_3_19_deprecations/src/replaced_element.dart';
+export 'package:flutter_html_3_19_deprecations/src/styled_element.dart';
 //export css_box_widget for use in custom render.
-export 'package:flutter_html/src/css_box_widget.dart';
+export 'package:flutter_html_3_19_deprecations/src/css_box_widget.dart';
 //export style api
-export 'package:flutter_html/style.dart';
+export 'package:flutter_html_3_19_deprecations/style.dart';
 
 class Html extends StatefulWidget {
   /// The `Html` widget takes HTML as input and displays a RichText

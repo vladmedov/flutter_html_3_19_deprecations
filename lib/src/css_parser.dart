@@ -4,8 +4,8 @@ import 'package:collection/collection.dart';
 import 'package:csslib/visitor.dart' as css;
 import 'package:csslib/parser.dart' as cssparser;
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_html/src/utils.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/src/utils.dart';
 
 Style declarationsToStyle(Map<String, List<css.Expression>> declarations) {
   Style style = new Style();

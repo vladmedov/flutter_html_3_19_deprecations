@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 import 'package:flutter_html_svg/flutter_html_svg.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:meta/meta.dart';

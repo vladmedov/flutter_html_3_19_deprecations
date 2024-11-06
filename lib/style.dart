@@ -1,15 +1,15 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_html/src/css_parser.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/src/css_parser.dart';
 
 //Export Style value-unit APIs
-export 'package:flutter_html/src/style/margin.dart';
-export 'package:flutter_html/src/style/length.dart';
-export 'package:flutter_html/src/style/size.dart';
-export 'package:flutter_html/src/style/fontsize.dart';
-export 'package:flutter_html/src/style/lineheight.dart';
+export 'package:flutter_html_3_19_deprecations/src/style/margin.dart';
+export 'package:flutter_html_3_19_deprecations/src/style/length.dart';
+export 'package:flutter_html_3_19_deprecations/src/style/size.dart';
+export 'package:flutter_html_3_19_deprecations/src/style/fontsize.dart';
+export 'package:flutter_html_3_19_deprecations/src/style/lineheight.dart';
 
 ///This class represents all the available CSS attributes
 ///for this package.
@@ -250,13 +250,13 @@ class Style {
   }
 
   static Map<String, Style> fromThemeData(ThemeData theme) => {
-        'h1': Style.fromTextStyle(theme.textTheme.headline1!),
-        'h2': Style.fromTextStyle(theme.textTheme.headline2!),
-        'h3': Style.fromTextStyle(theme.textTheme.headline3!),
-        'h4': Style.fromTextStyle(theme.textTheme.headline4!),
-        'h5': Style.fromTextStyle(theme.textTheme.headline5!),
-        'h6': Style.fromTextStyle(theme.textTheme.headline6!),
-        'body': Style.fromTextStyle(theme.textTheme.bodyText2!),
+        'h1': Style.fromTextStyle(theme.textTheme.displayLarge!),
+        'h2': Style.fromTextStyle(theme.textTheme.displayMedium!),
+        'h3': Style.fromTextStyle(theme.textTheme.displaySmall!),
+        'h4': Style.fromTextStyle(theme.textTheme.headlineMedium!),
+        'h5': Style.fromTextStyle(theme.textTheme.headlineSmall!),
+        'h6': Style.fromTextStyle(theme.textTheme.titleLarge!),
+        'body': Style.fromTextStyle(theme.textTheme.bodyMedium!),
       };
 
   static Map<String, Style> fromCss(

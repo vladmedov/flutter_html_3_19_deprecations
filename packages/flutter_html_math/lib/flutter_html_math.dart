@@ -2,7 +2,7 @@ library flutter_html_math;
 
 import 'package:html/dom.dart' as dom;
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 import 'package:flutter_math_fork/flutter_math.dart';
 
 /// The CustomRender function for the <math> tag.

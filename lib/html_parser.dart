@@ -5,10 +5,10 @@ import 'package:collection/collection.dart';
 import 'package:csslib/parser.dart' as cssparser;
 import 'package:csslib/visitor.dart' as css;
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:flutter_html/src/css_parser.dart';
-import 'package:flutter_html/src/html_elements.dart';
-import 'package:flutter_html/src/utils.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/src/css_parser.dart';
+import 'package:flutter_html_3_19_deprecations/src/html_elements.dart';
+import 'package:flutter_html_3_19_deprecations/src/utils.dart';
 import 'package:html/dom.dart' as dom;
 import 'package:html/parser.dart' as htmlparser;
 import 'package:numerus/numerus.dart';
@@ -134,7 +134,7 @@ class HtmlParser extends StatelessWidget {
       children: <StyledElement>[],
       node: html,
       //TODO(Sub6Resources): This seems  difficult to customize
-      style: Style.fromTextStyle(Theme.of(context).textTheme.bodyText2!),
+      style: Style.fromTextStyle(Theme.of(context).textTheme.bodyMedium!),
     );
 
     html.nodes.forEach((node) {
@@ -199,7 +199,7 @@ class HtmlParser extends StatelessWidget {
               parser: parser,
               tree: tree,
               style:
-                  Style.fromTextStyle(Theme.of(context).textTheme.bodyText2!),
+                  Style.fromTextStyle(Theme.of(context).textTheme.bodyMedium!),
             ),
           )) {
             return tree;

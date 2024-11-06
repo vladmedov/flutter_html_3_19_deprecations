@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'golden_test.dart';

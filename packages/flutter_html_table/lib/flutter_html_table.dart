@@ -4,7 +4,7 @@ import 'dart:math';
 
 import 'package:flutter_layout_grid/flutter_layout_grid.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 
 /// The CustomRender function that will render the <table> HTML tag
 CustomRender tableRender() =>

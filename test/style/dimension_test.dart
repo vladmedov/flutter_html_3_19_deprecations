@@ -1,4 +1,4 @@
-import 'package:flutter_html/src/style/length.dart';
+import 'package:flutter_html_3_19_deprecations/src/style/length.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 const nonZeroNumber = 16.0;

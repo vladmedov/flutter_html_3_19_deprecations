@@ -1,4 +1,4 @@
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 
 /// The [Width] class takes in a value and units, and defaults to px if no
 /// units are provided. A helper constructor, [Width.auto] constructor is

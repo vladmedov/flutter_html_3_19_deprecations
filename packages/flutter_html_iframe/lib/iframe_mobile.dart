@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 CustomRender iframeRender({NavigationDelegate? navigationDelegate}) =>

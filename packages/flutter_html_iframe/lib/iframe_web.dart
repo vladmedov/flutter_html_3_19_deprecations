@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+import 'package:flutter_html_3_19_deprecations/flutter_html.dart';
 import 'package:flutter_html_iframe/shims/dart_ui.dart' as ui;
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
